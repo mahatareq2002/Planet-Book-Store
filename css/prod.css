@@ -1,0 +1,31 @@
+.landing .cotent button {
+    position: absolute;
+    left: 1129px;
+    text-align: center;
+    top: 81%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    width: 13%;
+    text-align: center;
+    padding: 11px;
+    color: #ffffff;
+    /* direction: ltr; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    background-color: #403054;
+    border: #403054 3px solid;
+    border-radius: 11px;
+}
+
+header nav ul a {
+    padding: 54px 41px;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+    left: -126px;
+    font-weight: bold;
+}

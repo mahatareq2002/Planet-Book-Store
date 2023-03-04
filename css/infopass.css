@@ -1,0 +1,399 @@
+/* Start  varblies */
+:root{
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%);
+    --section-padding: 100px;
+}
+
+
+/* End varblies */
+
+
+/* Start globle rules */
+*{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+ul{
+list-style: none;
+}
+.container{
+padding-left: 15px;
+padding-right: 15px;
+margin-left:auto ;
+margin-right: auto;
+width: 1138px;
+}
+ img{
+   
+  width: 94%;
+    height: 11%;
+    margin: 5px;
+    position: relative;
+    left: -59px;
+    top: -3px;
+} 
+.main-heading {
+    text-align: center;
+    }
+    .main-heading h2 {
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 70px;
+    
+    }
+header{
+
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    } 
+    header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #403054;
+    height: 73px;
+    top: 35px;
+    border-radius: 19px;
+    
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    }
+header nav .toogle-menu {
+color: #ffffff;
+font-size: 18px;
+} 
+header nav ul{
+    display: flex;
+    
+    
+    } 
+    header nav .toogle-menu:hover + ul li a {
+        padding: 15px !important;
+        
+        }
+        
+         header nav ul a {
+            padding: 54px 25px;
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+            position: relative;
+            z-index: 2;
+            left: -126px;
+            font-weight: bold;
+        
+        
+        } 
+        header .container .addcart button{
+          position: relative;
+          
+          width: 146px;
+          height: 44px;
+          left: 10px;
+            top: 1px;
+        
+        }
+        
+        header nav ul li a:hover {
+        color: #050505;
+        /* border-bottom: 1px solid var(--main-color); */
+        }
+        
+        
+        header .container .addcart i{
+          color: #faf8fa;
+            font-size: 28px;
+            top: 11px;
+            left: 276px;
+            position: relative;
+        }
+        /* End header */
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/bg\ -\ page.png) ;
+    background-size: cover;
+    background-position: center;
+    font-family:'Tajawal', sans-serif;
+}
+header{
+
+    position: absolute;
+    left: 113px;
+    width: 87%;
+    z-index: 2;
+    } 
+    header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #403054;
+    height: 73px;
+    top: 35px;
+    border-radius: 19px;
+    
+    } 
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    }
+header nav .toogle-menu {
+    color: #ffffff;
+    font-size: 18px;
+    } 
+
+header nav ul{
+    display: flex;
+}
+header nav .toogle-menu:hover + ul li a {
+    padding: 15px !important;
+    
+    }
+    
+     header nav ul a {
+        padding: 54px 25px;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s;
+        position: relative;
+        z-index: 2;
+        left: -126px;
+        font-weight: bold;
+    
+    
+    } 
+    header .container .addcart button{
+      position: relative;
+      
+      width: 146px;
+      height: 44px;
+      left: 10px;
+        top: 1px;
+    
+    }
+    
+    header nav ul li a:hover {
+    color: #050505;
+    /* border-bottom: 1px solid var(--main-color); */
+    }
+    
+    
+    header .container .addcart i{
+      color: #faf8fa;
+        font-size: 28px;
+        top: 11px;
+        left: 276px;
+        position: relative;
+    }
+/* end header */
+/* start form edit  */
+
+.edit .container  .editinfo h1{
+ 
+    /* padding: 0 0 20px; */
+    position: absolute;
+    top: 203px;
+    left: 925px;
+    text-align: center;
+    font-size: 27px;
+    color: #CB88A7;
+    
+}
+.edit .container  .editinfo label{
+    top: 299px;
+    left: 1053px;
+    position: relative;
+    /* padding-bottom: 21px; */
+    /* margin-bottom: -2px; */
+    direction: rtl;
+    text-align: start;
+}
+
+
+.edit .container  .editinfo input[type="text"], input[type="password"]
+{
+    /* border: none; */ 
+    /* border-bottom: 1px solid #403054; */
+    /* background: transparent; */
+    position: relative;
+    top: 275px;
+    right: -559px;
+    width: 42%;
+    height: 7%;
+    direction: rtl;
+}
+
+.edit .container  .editinfo textarea{
+
+    position: relative;
+    top: 275px;
+    right: -559px;
+    width: 42%;
+    height: 17%;
+    direction: rtl;
+}
+
+.edit .container  .editinfo input[type="submit"]
+{
+    border: none;
+    top: 328px;
+    position: relative;
+    outline: none;
+    width: 181px;
+    height: 44px;
+    background: #403054;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    position: relative;
+    left: 846px;
+} 
+.edit .container  .editinfo input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #707572;
+    color: #000;
+}
+
+.edit .container  .editpass h2{
+ 
+    /* padding: 0 0 20px; */
+    position: absolute;
+    top: 812px;
+    left: 1062px;
+    text-align: center;
+    font-size: 27px;
+    color: #CB88A7;
+    
+}
+
+.edit .container  .editpass label{
+    top: 530px;
+    left: 1013px;
+    font-size: 15px;
+    position: relative;
+    /* padding-bottom: 21px; */
+    /* margin-bottom: -2px; */
+    direction: rtl;
+    text-align: start;
+}
+
+.edit .container  .editpass input[type="text"], input[type="password"]
+{
+    /* border: none; */ 
+    /* border-bottom: 1px solid #403054; */
+    /* background: transparent; */
+    position: relative;
+    top: 501px;
+    right: -537px;
+
+    width: 42%;
+    height: 7%;
+    direction: rtl;
+}
+
+
+.edit .container  .editpass input[type="submit"]
+{
+    border: none;
+    top: 557px;
+    position: relative;
+    outline: none;
+    width: 181px;
+    height: 44px;
+    background: #403054;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    position: relative;
+    left: 851px;
+} 
+.edit .container  .editpass input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #707572;
+    color: #000;
+}
+ 
+
+
+ /* start footer */
+
+
+footer{
+    height: 12%;
+    bottom: -654px;
+    background-color: #805B87;
+    background-size: cover;
+    position: relative;
+   }
+   footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   footer .container .social{
+  left:10px
+  
+  
+   }
+   footer .container .social .fa-brands{
+    position: relative;
+    top: 39px;
+    left: 13px;
+    padding-left: 32px;
+    /* width: 21%; */
+    /* height: 15%; */
+    color: white;
+    font-size: 30px;
+  
+   }
+  
+   footer .container .text{
+    left: 410px;
+    top: 39px;
+  
+    color: white;
+    font-size: 19px;
+    position: relative;
+   }
+   /* end footer */

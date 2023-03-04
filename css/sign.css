@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/bg\ -\ page.png) ;
+    background-size: cover;
+    background-position: center;
+    font-family:'Tajawal', sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+   
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 82px;
+    height: 85px;
+    /* border-radius: 50%; */
+    position: absolute;
+    top: -88px;
+    left: calc(50% - 49px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    position: relative;
+    top: -46px;
+    text-align: center;
+    font-size: 23px;
+    color: #805B87;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    /* border: none; */ 
+    /* border-bottom: 1px solid #403054; */
+    /* background: transparent; */
+    outline: none;
+    height: 43px;
+    width: 231%;
+    color: #403054;
+    font-size: 15px;
+    direction: rtl;
+    position: relative;
+    top: -39px;
+    right: 151px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    top: -37px;
+    position: relative;
+    outline: none;
+    width: 138px;
+    height: 46px;
+    background: #403054;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    position: relative;
+    left: 63px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #707572;
+    color: #000;
+}
+ .contact{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -70px;
+    left: 25px;
+    
+   }
+ .login-box p{
+    color: black;
+    position: relative;
+    left: 133px;
+    font-size: 18px;
+    top: -59px;
+}
+.login-box a{
+    position: relative;
+    left: 0px;
+    top: -80px;
+    font-size: 53px;
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+
+/* start footer */
+
+
+footer{
+    height: 11%;
+    /* top: 556px; */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    background-color: #805B87;
+    background-size: cover;
+    position: relative;
+   }
+   footer .contain{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   footer .contain .social{
+  left:10px
+  
+  
+   }
+   footer .contain .social .fa-brands{
+    position: relative;
+    top: 20px;
+    left: 13px;
+    padding-left: 32px;
+    /* width: 21%; */
+    /* height: 15%; */
+    color: white;
+    font-size: 30px;
+  
+   }
+  
+   footer .contain .textt{
+    left: 611px;
+    top: 8px;
+    color: white;
+    font-size: 19px;
+    position: relative;
+   }
+   /* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

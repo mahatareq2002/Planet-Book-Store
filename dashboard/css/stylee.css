@@ -1,0 +1,40 @@
+.login-box input[type="text"], input[type="password"] {
+    /* border: none; */
+    /* border-bottom: 1px solid #403054; */
+    background: transparent;
+    /* outline: none; */
+    height: 43px;
+    width: 231%;
+    color: #403054;
+    font-size: 14px;
+    direction: rtl;
+    position: relative;
+    top: 6px;
+    right: -177px;
+}
+
+
+.login-box input[type="submit"] {
+    border: none;
+    top: 16px;
+    position: relative;
+    outline: none;
+    width: 138px;
+    height: 46px;
+    background: #403054;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    position: relative;
+    left: -49px;
+}
+
+
+    footer {
+        height: 10%;
+        top: 717px;
+        background-color: #805B87;
+        background-size: cover;
+        position: relative;
+        OVERFLOW: hidden;
+    }

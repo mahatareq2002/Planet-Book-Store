@@ -1,0 +1,230 @@
+/* صفحة  الرئيسية  */
+
+
+.whoare .container h6 {
+    position: absolute;
+    font-size: 42px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 86px;
+    color: #805B87;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+    left: 619px;
+    top: 220px;
+    direction: initial;
+}
+
+
+
+.landing .cotent h6 {
+    position: absolute;
+    left: 611px;
+    top: 35%;
+    font-size: 34px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #fdfdfd;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+.landing .cotent h5 {
+    position: absolute;
+    left: 618px;
+    top: 80%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #ffffff;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.portfolio .imgs-container .box img {
+    max-width: 100%;
+    transition: 0.3s;
+    width: 73%;
+      height: 82%;
+    border-radius: 0px;
+    border: 20px solid #faf8fa !important; 
+    margin: 19px;
+    position: relative;
+    left: 4px;
+  }
+  .portfolio .imgs-container .box .caption {
+    position: relative;
+    left: 23px;
+    bottom: 99px;
+    padding: 20px;
+    background-color:#fafafa !important;
+    width: 73%;
+    }
+
+
+    /*  صفحة منتجاتنا  */
+    header nav ul a {
+        padding: 64px 32px;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s;
+        position: relative;
+        z-index: 2;
+        left: -126px;
+        font-weight: bold;
+    }
+    header .container .addcart button {
+        position: relative;
+        width: 171px;
+        height: 45px;
+        left: 29px;
+        top: 1px;
+        background-color: white;
+    }
+
+    .portfolio .container .main-heading{
+        position: absolute;
+        font-size: 66px;
+        transform: translateY(-50%);
+        width: 50%;
+        padding: 86px;
+        color: #805B87;
+      
+        display: flex;
+        justify-content: flex-end;
+       
+        top: 74px;
+        text-align: center;
+      }
+
+
+      .container .main2-heading {
+        position: absolute;
+        font-size: 53px;
+        transform: translateY(-50%);
+        width: 50%;
+        padding: 86px;
+        color: #805B87;
+        display: flex;
+        justify-content: flex-end;
+        top: 726px;
+        left: 670px;
+        text-align: center;
+    }
+    .container .main3-heading {
+        position: absolute;
+        font-size: 53px;
+        transform: translateY(-50%);
+        width: 50%;
+        padding: 86px;
+        color: #805B87;
+        display: flex;
+        justify-content: flex-end;
+        top: 1205px;
+        left: 670px;
+        text-align: center;
+    }
+    .discounts .imgs-container {
+        display: flex;
+        flex-wrap: wrap;
+        top: 313px;
+        
+        position: relative;
+    }
+   
+    
+    /* footer {
+        height: 13%;
+        top: 267px;
+        background-color: #805B87;
+        background-size: cover;
+        position: relative;
+    } */
+    @media (min-width: 1199px) {
+        .discounts .imgs-container .box {
+          flex-basis: 25%;
+          left: 327px;
+        }
+        }
+
+        .landing .cotent P {
+            position: absolute;
+            left: 705px;
+            top: 57%;
+            line-height: 33px;
+            font-size: 20px;
+            transform: translateY(-50%);
+            padding: 86px;
+            color: #ffffff;
+            direction: ltr;
+            display: flex;
+            justify-content: flex-end;
+            WIDTH: 52%;
+            DIRECTION: rtl;
+        }
+
+        .landing .cotent h6 {
+            position: absolute;
+            left: 700px;
+            top: 37%;
+            font-size: 34px;
+            transform: translateY(-50%);
+            width: 50%;
+            padding: 50px;
+            color: #fdfdfd;
+            direction: ltr;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .landing .text {
+            position: absolute;
+            left: 736px;
+            top: 22%;
+            font-size: 37px;
+            transform: translateY(-50%);
+            width: 47%;
+            padding: 50px;
+            color: #F0D1E5;
+            direction: ltr;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+        .landing .cotent h5 {
+            position: absolute;
+            left: 700px;
+            top: 75%;
+            font-size: 18px;
+            transform: translateY(-50%);
+            width: 50%;
+            padding: 50px;
+            color: #ffffff;
+            direction: ltr;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+
+        .whoare .container h6 {
+            position: absolute;
+            font-size: 42px;
+            transform: translateY(-50%);
+            width: 50%;
+            padding: 86px;
+            color: #805B87;
+            direction: ltr;
+            display: flex;
+            justify-content: flex-end;
+            left: 662px;
+            top: 220px;
+            direction: initial;
+        }

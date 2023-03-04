@@ -1,0 +1,135 @@
+
+
+.landing .cotent h6 {
+    position: absolute;
+    left: 610px;
+    top: 34%;
+    font-size: 24px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #403054;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing .cotent h5 {
+    position: absolute;
+    left: 612px;
+    top: 42%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #403054;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.landing .cotent h5 {
+    position: absolute;
+    left: 618px;
+    top: 42%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #707070;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing .cotent a {
+    position: relative;
+    text-decoration: none;
+    width: 333px;
+    height: 76px;
+    left: 1073px;
+    padding-left: 44px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    /* margin: 142px; */
+    border: 2px solid #805B87;
+    font-size: 23px;
+    top: -66px;
+    background-color: #805B87;
+    color: #faf8fa;
+    border-radius: 2px;
+}
+
+/* login */
+
+in-box input[type="text"], input[type="password"] {
+    /* border: none; */
+    /* border-bottom: 1px solid #403054; */
+    /* background: transparent; */
+    outline: none;
+    height: 43px;
+    width: 231%;
+    color: #403054;
+    font-size: 14px;
+    direction: rtl;
+    position: relative;
+    top: 6px;
+    right: -170px;}
+  
+/* button login */
+
+    .login-box input[type="submit"] {
+        border: none;
+        top: 39px;
+        position: relative;
+        outline: none;
+        width: 138px;
+        height: 46px;
+        background: #403054;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 8px;
+        position: relative;
+        left: -52px;
+    }
+
+
+
+
+    header nav ul a {
+        padding: 58px 39px;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s;
+        position: relative;
+        z-index: 2;
+        left: -126px;
+        font-weight: bold;
+    }
+
+
+
+
+.landing .cotent h4 {
+    position: absolute;
+    left: 468px;
+    direction: rtl;
+    top: 42%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: #805B87;
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
+}
+form .form-group button{
+
+    background-color: #403054;
+    border: 1px solid #403054;
+}
+.sidbac{background-color:#403054;}
